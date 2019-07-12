@@ -16,7 +16,7 @@ const resolvers = {
 };
 
 const app = new Koa();
-const readyRoute = require('./lib/routes/ready/index');
+const readyRoute = require('./lib/routes/ready');
 app.use(logger());
 app.use(readyRoute.routes());
 
