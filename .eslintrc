@@ -1,6 +1,6 @@
 {
-  "extends": ["plugin:prettier/recommended"],
-  "plugins": ["prettier"],
+  "extends": ["koa", "plugin:prettier/recommended"],
+  "plugins": ["prettier", "promise", "node", "import"],
   "rules": {
     "prettier/prettier": "error"
   }

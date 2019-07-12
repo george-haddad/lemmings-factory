@@ -5,7 +5,8 @@
 ```bash
 yarn init -y
 yarn add koa koa-logger
-yarn add --dev eslint-config-koa \
+yarn add --dev eslint \
+               eslint-config-koa \
                eslint-config-standard \
                eslint-plugin-standard \
                eslint-plugin-promise \
