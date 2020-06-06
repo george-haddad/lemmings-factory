@@ -11,7 +11,7 @@
     "test:lint": "eslint lib"
   },
   "dependencies": {
-    "apollo-server-koa": "^2.6.9",
+    "apollo-server-koa": "^2.14.2",
     "dotenv": "^8.0.0",
     "graphql": "^14.4.2",
     "koa": "^2.7.0",
